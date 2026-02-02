@@ -1,17 +1,9 @@
 import java.util.*;
-import java.util.Scanner
-
-class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Digite seu nome:");
-        String nome = input.nextLine();
-
-        System.out.print("Sua idade: ");
-        int idade = input.nextInt();
-
-        System.out.print("Cidade onde você mora?");
-        String cidade = input.nextLine();
-
-        System.out.print("Por último, qual seu maior sonho?");
+public class Main{
+    static void main(String[] args) {
+        String nome = "Anie Fairie";
+        String profissao = "Aspirante a hacker";
+        int idade = 26;
+        System.out.printIn("Olá, eu sou "+nome+", atualmente sou "+profissao+" e tenho"=idade=".");
+    }
 }
